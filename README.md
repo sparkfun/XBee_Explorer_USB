@@ -1,17 +1,33 @@
-XBee Explorer USB
-=================
+SparkFun XBee Explorer USB
+==========================
 
-[![XBee Explorer USB](https://dlnmh9ip6v2uc.cloudfront.net/images/products/8/6/8/7/08687-07-L_i_ma.jpg)](https://www.sparkfun.com/products/8687) [![XBee Explorer Dongle](https://dlnmh9ip6v2uc.cloudfront.net/images/products/9/8/1/9/09819-05_i_ma.jpg)](https://www.sparkfun.com/products/9819)
+![SparkFun XBee Explorer USB ](https://cdn.sparkfun.com//assets/parts/8/1/4/0/11812-02.jpg)
 
-Hardware design files for both the [XBee Explorer USB](https://www.sparkfun.com/products/8687) and [Dongle](https://www.sparkfun.com/products/9819).
+[*SparkFun XBee Explorer USB (WRL-11812)*](https://www.sparkfun.com/products/11812)
+
+This is a simple to use, USB to serial base unit for the Digi XBee line. 
+This unit works with all XBee modules including the Series 1 and Series 2.5, standard and Pro version. 
+Plug the unit into the XBee Explorer, attach a mini USB cable, 
+and you will have direct access to the serial and programming pins on the XBee unit.
+It has an FT231X USB-to-serial converter on board. 
 
 Repository Contents
 -------------------
 
-* **/Dongle** - PCB design files for the XBee Explorer Dongle (with an A-type USB connector on it)
-* **/Explorer** - PCB design files for the XBee Explorer USB (with a mini-B USB connector on it)
+* **/Hardware** - All Eagle design files (.brd, .sch)
+* **/Production** - Test bed files and production panel files
+
+Product Versions
+----------------
+* [WRL-08687](https://www.sparkfun.com/products/retired/8687)- Hardware version 1.5, with FT232 USB-to-serial converter. Retired
+
+Version History
+---------------
+* [V_2.1](https://github.com/sparkfun/XBee_Explorer_USB/tree/V_2.1) - GitHub files version 2.1
+* [V_1.5](https://github.com/sparkfun/XBee_Explorer_USB/tree/V_1.5) -- GitHub files version 1.5
 
 License Information
 -------------------
+The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
-All contents of this repository are released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+Distributed as-is; no warranty is given.
